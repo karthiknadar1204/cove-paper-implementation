@@ -28,4 +28,4 @@ Output only a numbered list of questions, nothing else.
   return questionsText.split('\n').map(q => q.replace(/^\d+\.\s*/, '').trim()).filter(q => q);
 }
 
-export default { verificationPlanner };
+export default verificationPlanner;

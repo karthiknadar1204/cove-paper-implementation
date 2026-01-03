@@ -33,4 +33,4 @@ Examples:
   return response.choices[0].message.content.trim();
 }
 
-export default { finalResponseGenerator };
+export default finalResponseGenerator;

@@ -12,4 +12,4 @@ async function baselineGenerator(question) {
   return response.choices[0].message.content.trim();
 }
 
-export default { baselineGenerator };
+export default baselineGenerator;

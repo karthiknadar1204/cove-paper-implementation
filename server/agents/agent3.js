@@ -19,4 +19,4 @@ async function verificationExecutor(questions) {
   return verifications;
 }
 
-export default { verificationExecutor };
+export default verificationExecutor;
