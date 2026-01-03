@@ -16,7 +16,7 @@ export default function Home() {
     setLoading(true);
 
     try {
-      const res = await fetch("http://localhost:3004/api/chat", {
+      const res = await fetch("https://chain-of-verification-production.up.railway.app/api/chat", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({ message: userMessage }),
