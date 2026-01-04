@@ -2,6 +2,10 @@ import express from 'express'
 import cors from 'cors'
 import chatRoutes from './routes/chat.js'
 const app=express()
+
+// Handle preflight requests
+app.options('*', cors())
+
 app.use(cors({
     origin: '*',
     methods: ['GET', 'POST', 'OPTIONS'],
